@@ -1,0 +1,79 @@
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+  background-attachment: fixed;
+}
+
+.title h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.text-here {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+button {
+  border: none;
+  background-color: #ca9a9a;
+  filter: drop-shadow(5px 5px 5px #999999);
+  color: white;
+  padding: 5px 0px;
+}
+
+.container-meteo {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #ca9a9a;
+  width: 500px;
+  margin: 0px 20px;
+  padding: 10px 30px 23px 30px;
+}
+
+.bloc-meteo {
+  display: flex;
+  justify-content: center;
+}
+
+.text-here p {
+  text-align: center;
+  font-size: 20px;
+}
+
+.container-meteo-actuel {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.container-meteo-info {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+  padding-right: 20px;
+}
+
+.temperature {
+  margin: 0;
+  font-size: 50px;
+}
+
+.p-description {
+  margin: 0;
+}
+
+img {
+  filter: drop-shadow(5px 5px 5px rgb(143, 143, 143));
+}
+
+.app-meteo {
+  height: 800px;
+  overflow-y: scroll;
+  background-color: rgba(250, 250, 250, 0.5);
+  border-radius: 10px;
+}
